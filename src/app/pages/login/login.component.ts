@@ -8,7 +8,7 @@ import { DefaultLoginLayoutComponent } from '../../components/default-login-layo
     DefaultLoginLayoutComponent
   ],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrl: './login.component.scss'
 })
 export class LoginComponent {
 
