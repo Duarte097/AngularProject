@@ -52,7 +52,10 @@ main {
                 background-color: transparent;
                 padding: 12px 24px;
                 cursor: pointer;
-    
+                
+                &:disabled {
+                    opacity: 0.8;
+                }
                 &.primary-button {
                     background-color: $primary-color;
                     color: white;
